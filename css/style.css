@@ -1,0 +1,59 @@
+body{
+  background-color:#007bff
+}
+
+/* for preloading images */
+body::after{
+    position:absolute; width:0; height:0; overflow:hidden; z-index:-1;
+    content:url(https://vinnu1.github.io/assets/eyes/eyes_00.png) url(https://vinnu1.github.io/assets/eyes/eyes_01.png) url(https://vinnu1.github.io/assets/eyes/eyes_02.png) url(https://vinnu1.github.io/assets/eyes/eyes_03.png) url(https://vinnu1.github.io/assets/eyes/eyes_04.png) url(https://vinnu1.github.io/assets/eyes/eyes_05.png) url(https://vinnu1.github.io/assets/eyes/eyes_06.png) url(https://vinnu1.github.io/assets/eyes/eyes_07.png) url(https://vinnu1.github.io/assets/eyes/eyes_08.png) url(https://vinnu1.github.io/assets/eyes/eyes_09.png);
+}
+.image{
+ height:300px;
+ width:300px;
+}
+/*
+@media only screen and (min-width: 768px) { 
+.image{
+ height:300px;
+ width:300px;
+}
+}
+
+@media only screen and (max-width: 767px) {
+.image{
+ height:300px;
+ width:300px;
+ background-size:270px 300px;
+}
+}
+*/
+.eye1{
+    background: url(https://vinnu1.github.io/assets/eyes/eyes_00.png) -7px 0px;
+}
+.eye2{
+    background: url(https://vinnu1.github.io/assets/eyes/eyes_01.png) -7px 0px;
+}
+.eye3{
+    background: url(https://vinnu1.github.io/assets/eyes/eyes_02.png) -7px 0px;
+}
+.eye4{
+    background: url(https://vinnu1.github.io/assets/eyes/eyes_03.png) -7px 0px;
+}
+.eye5{
+    background: url(https://vinnu1.github.io/assets/eyes/eyes_04.png) -7px 0px;
+}
+.eye6{
+    background: url(https://vinnu1.github.io/assets/eyes/eyes_05.png) -7px 0px;
+}
+.eye7{
+    background: url(https://vinnu1.github.io/assets/eyes/eyes_06.png) -7px 0px;
+}
+.eye8{
+    background: url(https://vinnu1.github.io/assets/eyes/eyes_07.png) -7px 0px;
+}
+.eye9{
+    background: url(https://vinnu1.github.io/assets/eyes/eyes_08.png) -7px 0px;
+}
+.eye10{
+    background: url(https://vinnu1.github.io/assets/eyes/eyes_09.png) -7px 0px;
+}
